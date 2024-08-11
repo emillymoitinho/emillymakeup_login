@@ -66,16 +66,16 @@ section#login > div#form {
     padding: 10px;
 }
 
-#form > h1 {
-    padding: 20px;
+div#form > h1 {
     text-align: center;
+    padding: 20px;
 }
 
-#form > p {
+div#form > p {
     margin: 0px 20px 20px 20px;
 }
 
-#form > p > strong {
+div#form > p > strong {
     color: var(--rosabebe);
 }
 
