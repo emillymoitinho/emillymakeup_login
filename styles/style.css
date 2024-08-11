@@ -42,7 +42,7 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    
     overflow: hidden;
 
     border: 1px solid var(--rosachiclete);
@@ -51,6 +51,8 @@ section#login {
     background-color: var(--white);
     width: 350px;
 
+    
+    transform: translate(-50%, -50%);
     transition: width .3s, heigth .3s;
     transition-timing-function: ease;
 }
@@ -82,6 +84,7 @@ div#form > p > strong {
 
 div#form > p > strong:hover {
    color: var(--detail);
+   cursor: pointer;
 }
 
 #pcenter {
@@ -95,37 +98,28 @@ div.dadoLogin > label {
 .dadoLogin {
     height: 40px;
     width: 210px;
-    border-radius: 10px;
+    border-radius: 8px;
     margin: 0 auto;
     margin-bottom: 5px;
     background-color: var(--rosabebe);
 }
 
-.dadoLogin > input#iemail {
+.dadoLogin > input {
+    font-size: 1em;
     border: 0;
     border-radius: 5px;
-    height: 10px;
-    width: 165px;
+    height: 35px;
+    width: 163px;
     position: relative;
-    top: -5px;
+    top: -10px;
     padding: 10px;
-
 }
-
-
-.dadoLogin > input#isenha {
-    border: 0;
-    border-radius: 5px;
-    height: 10px;
-    width: 165px;
-    position: relative;
-    top: -5px;
-    padding: 10px;
- }
 
 .material-symbols-outlined {
     color: var(--white);
     padding: 5px;
+    font-size: 2em;
+    width: 40px;
 }
 
 #btn > input {
@@ -140,6 +134,7 @@ div.dadoLogin > label {
 }
 
 #btn > input:hover{
+    cursor: pointer;
     background-color: var(--detail)
 }
 
@@ -162,6 +157,7 @@ form > a.botao {
 form > a.botao:hover {
     background-color: var(--rosabebe);
     color: var(--white);
+    cursor: pointer;
 }
 
 form > a.botao > span {
