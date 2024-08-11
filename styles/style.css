@@ -14,6 +14,7 @@
     --rosachiclete: #F27999;
     --white: #F2F2F2;
     --rosabebe: #F2B3D6;
+    --detail: #f85883
 }
 
 * {
@@ -79,8 +80,16 @@ div#form > p > strong {
     color: var(--rosabebe);
 }
 
+div#form > p > strong:hover {
+   color: var(--detail);
+}
+
 #pcenter {
     text-align: center;
+}
+
+div.dadoLogin > label {
+    display: none;
 }
 
 .dadoLogin {
@@ -121,12 +130,43 @@ div#form > p > strong {
 
 #btn > input {
     display: block;
-    margin: 10px auto;
+    margin: 5px auto;
     background-color: var(--rosachiclete);
     color: var(--white);
     font-weight: bold;
     padding: 10px 85px;
-    border: 1px solid var(--rosachiclete);
+    border: none;
     border-radius: 5px;
 }
+
+#btn > input:hover{
+    background-color: var(--detail)
+}
+
+form > a.botao {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1em;
+    width: 210px;
+    height: 40px;
+    background-color: var(--white);
+    color: var(--rosachiclete);
+    font-weight: bold;
+    border: 1px solid var(--rosachiclete);
+    border-radius: 5px;
+    text-decoration: none;
+    padding-top: 5px;
+}
+
+form > a.botao:hover {
+    background-color: var(--rosabebe);
+    color: var(--white);
+}
+
+form > a.botao > span {
+    color: #F27999;
+    font-size: 0.95em;
+}
+
 

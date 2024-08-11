@@ -22,9 +22,11 @@
         margin-right: 30px;
     }
 
-    section#login > div#formulario {
-        float: right;
+    section#login > div#form {
+        display: grid;
     }
+
+    
 
     #form > p {
         margin: 20px;
