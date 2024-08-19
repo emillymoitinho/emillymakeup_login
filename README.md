@@ -1,7 +1,7 @@
 # Projeto Login - EmillyMakeup 💄
  Projeto Login desenvolvido e inspirado no curso de HTML5 e CSS3 Módulo 4 do Professor Gustavo Guanabara
  
- Link: [https://emillymoitinho.github.io/project_login/](https://emillymoitinho.github.io/emillymakeup_login/)
+ Link: https://emillymoitinho.github.io/emillymakeup_login/ 
 
 ## 📱 Projeto Responsivo
 
